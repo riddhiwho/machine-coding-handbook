@@ -31,5 +31,4 @@ public class Bid {
         this.isWithdrawn = true;
     }
 
-
 }
