@@ -1,6 +1,7 @@
 package FlipBidder;
 
 public class BidService {
+    
     public void createOrUpdateBid(Buyer buyer, Auction auction, Double amount) {
         if (auction.isClosed()) {
             System.out.println("Auction is closed. Cannot place or update bid.");

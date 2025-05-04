@@ -1,3 +1,5 @@
+package TicTacToeGame;
+
 public class MainGame {
     public static void main(String[] args) {
         Player player1 = new Player("Akika", "X");

@@ -1,3 +1,5 @@
+package TicTacToeGame;
+
 public class Board {
     private String[][] board;
     private int size = 3;

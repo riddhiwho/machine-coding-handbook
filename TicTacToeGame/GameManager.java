@@ -1,3 +1,5 @@
+package TicTacToeGame;
+
 import java.util.Scanner;
 
 public class GameManager {

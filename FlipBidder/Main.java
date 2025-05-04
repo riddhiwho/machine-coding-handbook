@@ -28,8 +28,6 @@ public class Main {
             System.out.println("No winner for A1");
         }
 
-
-
         sellerService.addSeller("seller2");
         auctionService.createAuction("A2", 5.0, 20.0, 2.0, sellerService.getSeller("seller2"));
 
@@ -44,7 +42,6 @@ public class Main {
         } else {
             System.out.println("No winner for A2");
         }
-
 
     }
 }
